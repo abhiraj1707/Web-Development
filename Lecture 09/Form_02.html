@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Two</title>
+</head>
+    <body bgcolor="aqua">
+        <h2 style="color: red;">Job Application</h2>
+        <body>
+            <label for="name">Name:</label>
+            <input type name="text" id="name" name="name">
+            <br>
+            <br>
+
+            <label for="emailID">Email ID:</label>
+            <input type name="email" id="emailID" name="emailID">
+            <br>
+            <br>
+
+            <label for="phoneNumber">Phone:</label>
+            <input type name="tel" id="phoneNumber" name="phoneNumber">
+            <br>
+            <br>
+
+            <label for="fileUpload">Resume:</label>
+            <br>
+            <input type="file" name="fileUpload" id="fileUpload">
+            <br>
+            <br>
+
+            <label for="counter">Experience (in years)</label>
+            <input type="number" name="counter" id="counter" min="0" max="50">
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Skills</legend>
+
+                <input type="checkbox" id="checkbox" name="checkbox1">
+                <label for="checkbox1">HTML</label>
+                
+                <input type="checkbox" id="checkbox" name="checkbox2">
+                <label for="checkbox2">CSS</label>
+                
+                <input type="checkbox" id="checkbox" name="checkbox3">
+                <label for="checkbox1">JavaScript</label>
+            </fieldset>
+            <br>
+
+            <label for="educationtype">Highest Education</label>
+            <select name="educationtype" id="educationtype">
+                <option value="highSchool">High School</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="gradution">Gradution</option>
+                <option value="master">Master</option>
+            </select>
+            <br>
+
+            <fieldset>
+                <legend>Avilability</legend>
+
+                <label for="radio1">Full-time</label>
+                <input type="radio" name="radio" type="radio1">
+                <br>
+
+                <label for="radio2">Part-time</label>
+                <input type="radio" name="radio" type="radio2">
+                <br>
+            </fieldset>
+            <label for="textarea1">Additinal Comments:</label>
+            <br>
+            <textarea name="textarea1" id="textarea1" cols="25" rows="4"></textarea>
+
+            <input type="Submit" value="Submit Application">
+        </body>
+    </body>
+</html>
